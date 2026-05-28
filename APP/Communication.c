@@ -1,7 +1,7 @@
 #include "Communication.h"
 #include "bsp_usart.h"
 
-uint16_t DHT1_data[2];//温湿度1
+uint16_t DHT1_data[2];//温湿度
 uint16_t DHT2_data[2];//温湿度2
 uint16_t H2_1,H2_2,H2_3;//氢气值
 uint16_t Speed;//风速
